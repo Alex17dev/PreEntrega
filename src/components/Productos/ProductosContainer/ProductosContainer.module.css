@@ -1,0 +1,30 @@
+.contenedor {
+    margin-top: 50px;
+}
+.contenedor p {
+text-align: center;
+}
+.contenedor h1 {
+    font-size: 40px;
+    margin-bottom:  10px;
+}
+
+.contenedortext {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.subtitulo{
+    text-align: center;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+}
+

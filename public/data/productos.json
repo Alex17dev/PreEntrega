@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 5,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 6,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 8,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 100,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 9,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 10,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    },
+    {
+        "id": 11,
+        "nombre": "Orquidea 1",
+        "precio": "200000",
+        "stock": "10",
+        "imagen": "/images/orquidea.webp"
+    }
+]

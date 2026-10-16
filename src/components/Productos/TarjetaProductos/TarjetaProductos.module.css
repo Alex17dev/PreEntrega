@@ -1,0 +1,144 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 25px;
+    background-color: #ffffff; /* Asegura fondo blanco por si acaso */
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.cardTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Separa el título y la estrella a los extremos */
+    padding: 0 15px;
+    margin-top: 10px;
+}
+
+.favorito {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.favorito:hover {
+    transform: scale(1.2); /* Efecto lupa al pasar el mouse por la estrella */
+}
+
+/* Espaciado para los textos de precio y stock */
+.card p {
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+.cardbtn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+
+.cardbtn button {
+    padding: 5px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.cardbtn button:hover {
+    background-color: #e2e6ea;
+}
+
+.cardAgregarBtn {
+    padding: 12px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-azul-marino);
+    color: white;
+    font-family: var(--fuente-texto);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cardAgregarBtn:hover {
+    background-color: #1e293b; /* Un tono un poquito más claro al pasar el mouse */
+}
+
+/* Contenedor de la información central para darle un padding interno uniforme */
+.cardInfo {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacio uniforme entre precio, stock y contador */
+}
+
+/* Estilo para el precio (hacerlo resaltar más) */
+.precio {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-texto);
+    margin: 0;
+}
+
+/* Estilo para el stock (un tono más suave) */
+.stock {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Contenedor del selector de cantidad (- 0 +) */
+.cardbtn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+/* Estilo de los botoncitos de + y - */
+.cardbtn button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #d1d5db;
+    background-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.cardbtn button:hover {
+    background-color: #f3f4f6;
+}
+
+.cardbtn p {
+    font-weight: 600;
+    font-size: 1rem;
+    min-width: 20px;
+    text-align: center;
+    margin: 0;
+}

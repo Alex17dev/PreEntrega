@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pedro",
+        "email": "pedro@gmail.com",
+        "puesto": "Ceo",
+        "imagen": "/images/pedro.webp"
+    },
+        {
+        "id": 2,
+        "nombre": "Marta",
+        "email": "marta@gmail.com",
+        "puesto": "Recursos Humanos",
+        "imagen": "/images/marta.jpg"
+    },
+        {
+        "id": 3,
+        "nombre": "Pepe",
+        "email": "pepe@gmail.com",
+        "puesto": "Administración",
+        "imagen": "/images/pepe.avif"
+    },
+        {
+        "id": 5,
+        "nombre": "Lucas",
+        "email": "lucas@gmail.com",
+        "puesto": "Ventas",
+        "imagen": "/images/lucas.jpg"
+    }
+]

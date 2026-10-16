@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--color-azul-marino);
+    color: #fff;
+    padding: 20px 40px;
+}
+
+.footer p, h2{
+    text-align: center;
+}
